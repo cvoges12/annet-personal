@@ -1,4 +1,4 @@
-{ (import <nixpkgs> {}), ... }:
+{ ... }:
 
 {
   imports = [
