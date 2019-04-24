@@ -6,8 +6,10 @@
     browserpass.enable = true;
     gnupg.agent = {
       enable = true;
+      enableBrowserSocket = true;
       enableSSHSupport = true;
     };
+    ssh.startAgent = false;
     mtr.enable = true;
     tmux = {
       enable = true;
