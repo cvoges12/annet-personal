@@ -87,10 +87,10 @@
 
       ## Haskell-Modules
       ### Hackage-Packages
-      haskellPackages.Chart
+      #haskellPackages.Chart
       haskell.packages.ghc822.djinn
       haskellPackages.ghcid
-      haskellPackages.hnix
+      #haskellPackages.hnix
       haskellPackages.pandoc
       #haskellPackages.purescript
       haskellPackages.stack

@@ -122,7 +122,7 @@
             };
 
             "bar/top" = {
-              monitor = "LVDS1";
+              monitor = "LVDS-1";
               monitor-strict = true;
               width = "100%";
               height = "3%";
@@ -147,7 +147,7 @@
             };
 
             "bar/bottom" = {
-              monitor = "LVDS1";
+              monitor = "LVDS-1";
               monitor-strict = true;
               width = "100%";
               height = "3%";
@@ -244,6 +244,7 @@
 
             "module/light" = {
               type = "internal/xbacklight";
+              card = "intel_backlight";
               format = "<label>";
               label = " %percentage%%";
               bar-width = 10;

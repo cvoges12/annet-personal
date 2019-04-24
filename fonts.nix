@@ -21,7 +21,8 @@
     fonts = with pkgs; [
       fira-code
       fira-mono
-      font-droid
+      #font-droid
+      #noto-fonts
       font-awesome_5
       font-awesome_4
       wqy_zenhei
