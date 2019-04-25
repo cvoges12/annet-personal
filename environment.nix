@@ -141,6 +141,7 @@
       neofetch
       vdirsyncer # for khal and khard
       youtube-dl
+      yubikey-personalization
 
       ## Networking
       #aircrack-ng

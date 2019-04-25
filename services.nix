@@ -93,6 +93,7 @@
     pcscd.enable = true;
     udev.packages = with pkgs; [
       android-udev-rules
+      yubikey-personalization
     ];
     nixosManual.showManual = true;
   };
