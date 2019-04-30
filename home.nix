@@ -38,13 +38,6 @@
           enable = true;
           enableAdobeFlash = false;
         };
-        taskwarrior = {
-          enable = true;
-          config = {
-            confirmation = true;
-          };
-          colorTheme = "dark-gray-blue-256";
-        };
         urxvt = {
           enable = true;
           iso14755 = true;

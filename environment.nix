@@ -29,8 +29,8 @@
       feh
 
       ## Misc
+      calcurse
       dmenu
-      khal
       khard
       mpvc
       #ranger
