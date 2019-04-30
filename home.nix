@@ -460,7 +460,7 @@
             { command = "systemctl --user restart polybar.service"; 
               always = true; 
               notification = false; }
-            { command = "urxvt -hold -e ikhal";
+            { command = "urxvt -hold -e calcurse";
               always = true;
               workspace = "0";
               notification = false; }
