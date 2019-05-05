@@ -40,7 +40,7 @@
           enableAdobeFlash = false;
         };
         tmux = {
-          clock24 = true;
+          #clock24 = true;
           enable = true;
           extraConfig = ''
             bind h select-pane -L
