@@ -70,7 +70,9 @@
           logoutExtra = "";
           #localVariables
           #sessionVariables
-          #shellAliases
+          shellAliases = {
+            wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
+          };
           oh-my-zsh = {
             enable = true;
             #plugins

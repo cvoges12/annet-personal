@@ -10,9 +10,6 @@
       gpg-connect-agent /bye
       export SSH_AUTH_SOCK="/run/user/$UID/gnupg/S.gpg-agent.ssh"
     '';
-    shellAliases = {
-      wttr = "curl wttr.in/?m&M&F&A&Q";
-    };
     systemPackages = with pkgs; [
 
       # Applications
