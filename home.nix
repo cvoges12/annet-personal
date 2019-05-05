@@ -26,6 +26,7 @@
         EDITOR = "nvim";
       };
       programs = {
+        bash.enable = false;
         git = {
           enable = true;
           userEmail = "${gmail}";
