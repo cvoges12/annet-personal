@@ -42,16 +42,17 @@
         tmux = {
           clock24.enable = true;
           enable = true;
-          extraConfig = 
-            "bind h select-pane -L"
-            "bind n select-pane -D"
-            "bind e select-pane -U"
-            "bind i select-pane -R"
+          extraConfig = ''
+            bind h select-pane -L
+            bind n select-pane -D
+            bind e select-pane -U
+            bind i select-pane -R
 
-            "bind -r H resize-pane -L"
-            "bind -r N resize-pane -D"
-            "bind -r E resize-pane -U"
-            "bind -r I resize-pane -R"
+            bind -r H resize-pane -L
+            bind -r N resize-pane -D
+            bind -r E resize-pane -U
+            bind -r I resize-pane -R
+          '';
           keymode = "vi";
           shortcut = "b";
         };
