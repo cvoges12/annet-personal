@@ -90,6 +90,8 @@
           #sessionVariables
           shellAliases = {
             wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
+            hsrepl = "stack repl";
+            hsauto = "ghcid --command \"stack repl\" --test \":main\"";
           };
           oh-my-zsh = {
             enable = true;
