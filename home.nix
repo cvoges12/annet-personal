@@ -53,7 +53,7 @@
           #  bind -r E resize-pane -U
           #  bind -r I resize-pane -R
           #'';
-          #keymode = "vi";
+          #keyMode = "vi";
           #shortcut = "b";
         };
         urxvt = {
