@@ -476,7 +476,7 @@
             };
           };
           startup = [
-            { command = "wal -i /home/cvoges12/Pictures/wallpapers/Cityscapes";
+            { command = "wal -i /home/cvoges12/Pictures/wallpapers/Landscapes";
               always = true;
               notification = false; }
             { command = "systemctl --user restart polybar.service"; 
