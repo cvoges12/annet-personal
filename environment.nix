@@ -98,7 +98,7 @@
       #haskellPackages.hnix
       haskellPackages.pandoc
       #haskellPackages.purescript
-      haskellPackages.shelly_1_8_1
+      haskellPackages.shelly
       haskellPackages.stack
 
       ## Interpreters
