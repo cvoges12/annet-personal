@@ -95,6 +95,7 @@
       #haskellPackages.Chart
       haskell.packages.ghc822.djinn
       haskellPackages.ghcid
+      haskellPackages.hledger
       #haskellPackages.hnix
       haskellPackages.pandoc
       #haskellPackages.purescript
