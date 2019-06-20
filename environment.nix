@@ -101,7 +101,7 @@
       dhall
       dhall-bash
       dhall-json
-      dhall-nix
+      #dhall-nix
       haskellPackages.Agda
       haskellPackages.blunt
       haskellPackages.cabal2nix
