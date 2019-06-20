@@ -68,6 +68,9 @@
       ### Sniffers
       #wireshark
 
+      ## Office
+      libreoffice
+
       ## Video
       mpv
 
