@@ -23,11 +23,11 @@
     in
     { cvoges12 = {
       home = {
-        keyboard.variant = "colemak";
+        #keyboard.variant = "colemak";
         sessionVariables = {
           EDITOR = "nvim";
         };
-        username = "${username}";
+        #username = "${username}";
       };
       programs = {
         bash.enable = false;
