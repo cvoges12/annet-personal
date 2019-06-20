@@ -201,7 +201,10 @@
       ps_mem
       tree
 
-      # X11
+      ## Text
+      ripgrep
+
+      ## X11
       arandr
 
       # Top-level
