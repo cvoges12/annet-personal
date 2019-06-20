@@ -115,7 +115,7 @@
       haskellPackages.hledger
       haskellPackages.hlint
       #haskellPackages.hnix    # broken
-      haskellPackages.intero
+      #haskellPackages.intero    # broken
       haskellPackages.pandoc
       haskellPackages.PandocAgda
       haskellPackages.pointfree-fancy
