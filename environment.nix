@@ -118,7 +118,7 @@
       #haskellPackages.intero    # broken
       haskellPackages.pandoc
       #haskellPackages.PandocAgda    # broken
-      haskellPackages.pointfree-fancy
+      #haskellPackages.pointfree-fancy    # broken
       haskellPackages.pointfree
       haskellPackages.reflex
       haskellPackages.shelly
