@@ -25,6 +25,7 @@
       #noto-fonts
       font-awesome_5
       font-awesome_4
+      hasklig
       wqy_zenhei
     ];
   };
