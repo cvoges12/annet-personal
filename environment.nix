@@ -120,7 +120,7 @@
       #haskellPackages.PandocAgda    # broken
       #haskellPackages.pointfree-fancy    # broken
       haskellPackages.pointfree
-      haskellPackages.reflex
+      #haskellPackages.reflex    # broken
       haskellPackages.shelly
       haskellPackages.stack
       haskellPackages.yesod
