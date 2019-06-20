@@ -154,7 +154,7 @@
 
               fixed-center = true;
               modules-left = "i3";
-              modules-right = "wired wifi fs temp battery";
+              modules-right = "cpu memory fs temp battery";
               module-margin-left = 2;
               module-margin-right = 2;
               padding = 2;
@@ -177,7 +177,7 @@
               foreground = "\${colors.foreground}";
 
               fixed-center = true;
-              modules-left = "cpu memory";
+              modules-left = "wired wifi";
               modules-center = "mpd";
               modules-right = "light date";
               module-margin-left = 2;
