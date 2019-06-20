@@ -30,7 +30,7 @@
       dmenu
       khard
       mpvc
-      #ranger
+      ranger
       rxvt_unicode
       zathura
       
