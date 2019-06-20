@@ -162,7 +162,6 @@ neovim.override {
                 neco-syntax
                 syntastic
                 vim-haskellConcealPlus
-                vim-haskell-indent
                 vim-hdevtools
                 vim-hoogle
                 vim-pandoc
