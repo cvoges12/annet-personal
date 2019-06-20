@@ -101,9 +101,9 @@
       dhall
       dhall-bash
       dhall-json
-      #dhall-nix
+      #dhall-nix    # broken
       haskellPackages.Agda
-      haskellPackages.blunt
+      #haskellPackages.blunt    # broken
       haskellPackages.cabal2nix
       haskellPackages.cabal-install
       #haskellPackages.Chart
