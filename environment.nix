@@ -16,6 +16,7 @@
       ## Audio
       #cava
       caudec
+      mpc_cli
       ncmpcpp
 
       ## Editors
