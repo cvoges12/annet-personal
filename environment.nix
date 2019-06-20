@@ -5,9 +5,6 @@
     sessionVariables = {
       EDITOR = "nvim";
     };
-    shellAliases = {
-      gitPush = "git push github && git push gitlab";
-    };
     shellInit = ''
       export GPG_TTY="$(tty)"
       gpg-connect-agent /bye
