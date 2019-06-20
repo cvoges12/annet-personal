@@ -114,7 +114,7 @@
       haskellPackages.hdevtools
       haskellPackages.hledger
       haskellPackages.hlint
-      haskellPackages.hnix
+      #haskellPackages.hnix    # broken
       haskellPackages.intero
       haskellPackages.pandoc
       haskellPackages.PandocAgda
