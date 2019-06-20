@@ -98,32 +98,32 @@
 
       ## Haskell-Modules
       ### Hackage-Packages
-      dhall
-      dhall-bash
-      dhall-json
-      #dhall-nix    # broken
-      haskellPackages.Agda
-      #haskellPackages.blunt    # broken
-      haskellPackages.cabal2nix
-      haskellPackages.cabal-install
-      #haskellPackages.Chart
-      haskellPackages.djinn #.ghc822
-      haskellPackages.ghcid
-      #haskellPackages.ghcjs-base-stub    # broken
-      haskellPackages.ghcjs-dom
-      haskellPackages.hdevtools
-      haskellPackages.hledger
-      haskellPackages.hlint
-      #haskellPackages.hnix    # broken
-      #haskellPackages.intero    # broken
-      haskellPackages.pandoc
-      #haskellPackages.PandocAgda    # broken
-      #haskellPackages.pointfree-fancy    # broken
-      haskellPackages.pointfree
-      #haskellPackages.reflex    # broken
-      haskellPackages.shelly
-      haskellPackages.stack
-      haskellPackages.yesod
+      #dhall
+      #dhall-bash
+      #dhall-json
+      ##dhall-nix    # broken
+      #haskellPackages.Agda
+      ##haskellPackages.blunt    # broken
+      #haskellPackages.cabal2nix
+      #haskellPackages.cabal-install
+      ##haskellPackages.Chart
+      #haskellPackages.djinn #.ghc822
+      #haskellPackages.ghcid
+      ##haskellPackages.ghcjs-base-stub    # broken
+      #haskellPackages.ghcjs-dom
+      #haskellPackages.hdevtools
+      #haskellPackages.hledger
+      #haskellPackages.hlint
+      ##haskellPackages.hnix    # broken
+      ##haskellPackages.intero    # broken
+      #haskellPackages.pandoc
+      ##haskellPackages.PandocAgda    # broken
+      ##haskellPackages.pointfree-fancy    # broken
+      #haskellPackages.pointfree
+      ##haskellPackages.reflex    # broken
+      #haskellPackages.shelly
+      #haskellPackages.stack
+      #haskellPackages.yesod
 
       ## Interpreters
       guile
