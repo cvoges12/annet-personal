@@ -150,7 +150,24 @@ neovim.override {
                                                                                  
     '';
     packages.myVimPackage = with pkgs.vimPlugins; {
-      start = [ idris-vim YouCompleteMe Syntastic ];
+      start = [ agda-vim
+                dhall-vim
+                ghcmod-vim
+                haskell-vim
+                idris-vim
+                intero-neovim
+                LanguageClient-neovim
+                neco-ghc
+                neco-look
+                neco-syntax
+                syntastic
+                vim-haskellConcealPlus
+                vim-haskell-indent
+                vim-hdevtools
+                vim-hoogle
+                vim-pandoc
+                youcompleteme
+              ];
       opt = [ vim-latex-live-preview ];
     };
   };
