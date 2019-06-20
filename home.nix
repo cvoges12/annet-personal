@@ -93,9 +93,10 @@
           #localVariables
           #sessionVariables
           shellAliases = {
-            wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
-            hsrepl = "stack repl";
+            gitPush = "git push github && git push gitlab";
             hsauto = "ghcid --command \"stack repl\" --test \":main\"";
+            hsrepl = "stack repl";
+            wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
           };
           oh-my-zsh = {
             enable = true;
