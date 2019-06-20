@@ -229,7 +229,9 @@
               type = "internal/date";
               internal = 1;
               date = "%y-%m-%d";
-              time = "%H:%M:%S";
+              date-alt = "%a %y-%m-%d";
+              time = "%H:%M";
+              time-alt = "%H:%M:%S";
               label = " %date%  %time%";
             };
 
