@@ -107,7 +107,7 @@
       haskellPackages.cabal2nix
       haskellPackages.cabal-install
       #haskellPackages.Chart
-      haskell.packages.djinn #.ghc822
+      haskellPackages.djinn #.ghc822
       haskellPackages.ghcid
       haskellPackages.ghcjs-base-stub
       haskellPackages.ghcjs-dom
