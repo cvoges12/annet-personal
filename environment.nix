@@ -109,7 +109,7 @@
       #haskellPackages.Chart
       haskellPackages.djinn #.ghc822
       haskellPackages.ghcid
-      haskellPackages.ghcjs-base-stub
+      #haskellPackages.ghcjs-base-stub    # broken
       haskellPackages.ghcjs-dom
       haskellPackages.hdevtools
       haskellPackages.hledger
