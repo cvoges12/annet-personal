@@ -22,8 +22,12 @@
       ws10 = "workspace 10";
     in
     { cvoges12 = {
-      home.sessionVariables = {
-        EDITOR = "nvim";
+      home = {
+        keyboard.variant = "colemak";
+        sessionVariables = {
+          EDITOR = "nvim";
+        };
+        username = "${username}";
       };
       programs = {
         bash.enable = false;
