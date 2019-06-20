@@ -102,7 +102,7 @@
       dhall-bash
       dhall-json
       #dhall-nix    # broken
-      haskellPackages.Agda
+      #haskellPackages.Agda    # broken
       #haskellPackages.blunt    # broken
       haskellPackages.cabal2nix
       haskellPackages.cabal-install
