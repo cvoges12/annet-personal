@@ -82,45 +82,68 @@
 
       # Build-Support
       ## CC-Wrapper
-      #clang
-      #gcc
+      clang
+      gcc
 
       ## Trivial-Builder
-      idris
       #libreoffice
       texlive.combined.scheme-full
       #vimPlugins.pluginnames2nix  # use this in the future
 
       # Development
       ## Compilers
+      chez
+      gforth
       ghc
-      #llvm
+      llvm
       openjdk
+      racket
 
       ## Haskell-Modules
       ### Hackage-Packages
+      dhall
+      dhall-bash
+      dhall-json
+      dhall-nix
+      haskellPackages.Agda
+      haskellPackages.blunt
+      haskellPackages.cabal2nix
+      haskellPackages.cabal-install
       #haskellPackages.Chart
-      haskell.packages.ghc822.djinn
+      haskell.packages.djinn #.ghc822
       haskellPackages.ghcid
+      haskellPackages.ghcjs-base-stub
+      haskellPackages.ghcjs-dom
+      haskellPackages.hdevtools
       haskellPackages.hledger
-      #haskellPackages.hnix
+      haskellPackages.hlint
+      haskellPackages.hnix
+      haskellPackages.intero
       haskellPackages.pandoc
-      #haskellPackages.purescript
+      haskellPackages.PandocAgda
+      haskellPackages.pointfree-fancy
+      haskellPackages.pointfree
+      haskellPackages.reflex
       haskellPackages.shelly
       haskellPackages.stack
+      haskellPackages.yesod
 
       ## Interpreters
-      #python37Full
+      guile
+      python37Full
 
       ## Libraries
       gnutls
+      hunspell
       libnotify
 
       ## Tools
       ### Misc
       dialog
+      ycmd
 
       ## Web
+      csslint
       #nodejs
 
       # Misc
