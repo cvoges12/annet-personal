@@ -1,8 +1,5 @@
 { config, lib, pkgs, ... }:
 
-let
-  unstable = import <nixos-unstable> {};
-in
 {
   environment = {
     sessionVariables = {
@@ -64,6 +61,9 @@ in
       #mailsync  # maybe checkout too?
       #neomutt
       #notmuch # maybe check out `notmuch-mutt`
+
+      ### Remote
+      teamviewer
       
       ### Sniffers
       #wireshark
@@ -120,7 +120,7 @@ in
 
 
       #### BROKEN ####
-      unstable.dhall-nix
+      #unstable.dhall-nix
       #haskellPackages.Agda
       #haskellPackages.blunt
       #haskellPackages.Chart
