@@ -101,29 +101,32 @@
       dhall
       dhall-bash
       dhall-json
-      #dhall-nix    # broken
-      #haskellPackages.Agda    # broken
-      #haskellPackages.blunt    # broken
       haskellPackages.cabal2nix
       haskellPackages.cabal-install
-      #haskellPackages.Chart
-      haskellPackages.djinn #.ghc822
+      haskellPackages.djinn
       haskellPackages.ghcid
-      #haskellPackages.ghcjs-base-stub    # broken
       haskellPackages.ghcjs-dom
       haskellPackages.hdevtools
       haskellPackages.hledger
       haskellPackages.hlint
-      #haskellPackages.hnix    # broken
-      #haskellPackages.intero    # broken
       haskellPackages.pandoc
-      #haskellPackages.PandocAgda    # broken
-      #haskellPackages.pointfree-fancy    # broken
       haskellPackages.pointfree
-      #haskellPackages.reflex    # broken
       haskellPackages.shelly
       haskellPackages.stack
       haskellPackages.yesod
+
+
+      #### BROKEN ####
+      dhall-nix
+      #haskellPackages.Agda
+      #haskellPackages.blunt
+      #haskellPackages.Chart
+      #haskellPackages.ghcjs-base-stub
+      #haskellPackages.hnix
+      #haskellPackages.intero
+      #haskellPackages.PandocAgda
+      #haskellPackages.pointfree-fancy
+      #haskellPackages.reflex
 
       ## Interpreters
       guile
