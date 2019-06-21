@@ -1,5 +1,8 @@
 { config, lib, pkgs, ... }:
 
+let
+  unstable = import sources.unstable config.nixpkgs;
+in
 {
   environment = {
     sessionVariables = {
@@ -117,7 +120,7 @@
 
 
       #### BROKEN ####
-      dhall-nix
+      unstable.dhall-nix
       #haskellPackages.Agda
       #haskellPackages.blunt
       #haskellPackages.Chart
