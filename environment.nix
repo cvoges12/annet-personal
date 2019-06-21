@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 let
-  unstable = import sources.unstable config.nixpkgs;
+  unstable = import <unstable> {};
 in
 {
   environment = {
