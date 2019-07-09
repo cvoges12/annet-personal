@@ -56,12 +56,9 @@
       weechat
 
       ### Mailreaders
-      #mailsync  # maybe checkout too?
-      #neomutt
-      #notmuch # maybe check out `notmuch-mutt`
-
-      ### Remote
-      teamviewer
+    # mailsync  # maybe checkout too?
+    # neomutt
+    # notmuch # maybe check out `notmuch-mutt`
       
       ### Sniffers
       #wireshark
