@@ -174,8 +174,9 @@
       android-file-transfer
 
       ## Graphics
+      maim
       pywal
-      scrot    # OR escrotum OR maim OR yaxg
+      escrotum
 
       ## Misc
       neofetch
