@@ -180,6 +180,7 @@
 
       ## Misc
       neofetch
+      tldr
       vdirsyncer # for khal and khard
       youtube-dl
       yubikey-personalization
