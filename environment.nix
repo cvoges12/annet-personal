@@ -84,9 +84,8 @@
       gcc
 
       ## Trivial-Builder
-      #libreoffice
       texlive.combined.scheme-full
-      #vimPlugins.pluginnames2nix  # use this in the future
+    # vimPlugins.pluginnames2nix  # use this in the future
 
       # Development
       ## Compilers
@@ -118,16 +117,16 @@
 
 
       #### BROKEN ####
-      #unstable.dhall-nix
-      #haskellPackages.Agda
-      #haskellPackages.blunt
-      #haskellPackages.Chart
-      #haskellPackages.ghcjs-base-stub
-      #haskellPackages.hnix
-      #haskellPackages.intero
-      #haskellPackages.PandocAgda
-      #haskellPackages.pointfree-fancy
-      #haskellPackages.reflex
+    # dhall-nix
+    # haskellPackages.Agda
+    # haskellPackages.blunt
+    # haskellPackages.Chart
+    # haskellPackages.ghcjs-base-stub
+    # haskellPackages.hnix
+    # haskellPackages.intero
+    # haskellPackages.PandocAgda
+    # haskellPackages.pointfree-fancy
+    # haskellPackages.reflex
 
       ## Interpreters
       guile
@@ -138,6 +137,10 @@
       hunspell
       libnotify
 
+      ## Python-Modules
+      python37Packages.glances
+
+
       ## Tools
       ### Misc
       dialog
@@ -145,7 +148,6 @@
 
       ## Web
       csslint
-      #nodejs
 
       # Misc
       ## Emulators
@@ -156,11 +158,11 @@
       iotop
       powertop
       psmisc
-      #linuxPackages.wireguard
+    # linuxPackages.wireguard
 
       # Servers
-      #clamsmtp
-      #quagga
+    # clamsmtp
+    # quagga
 
       # Tools
       ## Archivers
