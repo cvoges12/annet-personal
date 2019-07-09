@@ -41,7 +41,7 @@
       surf
 
       ### Feedreaders
-      #newsboat
+      newsboat
 
       ### IDS
       #snort
