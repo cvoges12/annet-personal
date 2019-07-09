@@ -44,13 +44,11 @@
       newsboat
 
       ### IDS
-      #snort
+    # snort
 
       ### Instant-Messengers
-      #profanity
-      #quaternion
-      #riot-web
-      #signal-desktop
+      profanity
+      signal-desktop
       tdesktop
       #telegram-cli
       
