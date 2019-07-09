@@ -53,7 +53,7 @@
       telegram-cli
       
       ### IRC
-      #weechat
+      weechat
 
       ### Mailreaders
       #mailsync  # maybe checkout too?
