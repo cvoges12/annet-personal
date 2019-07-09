@@ -60,8 +60,11 @@
     # neomutt
     # notmuch # maybe check out `notmuch-mutt`
       
+      ### Newsreaders
+      slrn
+
       ### Sniffers
-      #wireshark
+      wireshark
 
       ## Office
       libreoffice
