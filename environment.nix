@@ -30,7 +30,6 @@
       khard
     # mop
       mpvc
-      ranger
       rtv
       rxvt_unicode
       wego
