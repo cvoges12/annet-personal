@@ -50,7 +50,7 @@
       profanity
       signal-desktop
       tdesktop
-      #telegram-cli
+      telegram-cli
       
       ### IRC
       #weechat
