@@ -19,7 +19,7 @@
     ./users.nix
     ./xdg.nix
     (import (builtins.fetchGit {
-      url = "https://github.com/rycee/home-manager.git"
-      ref = "master";) {}).nixos
+      url = "https://github.com/rycee/home-manager.git";
+      ref = "master";}) {}).nixos
   ];
 }
