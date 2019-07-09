@@ -28,9 +28,12 @@
       calcurse
       dmenu
       khard
+    # mop
       mpvc
       ranger
+      rtv
       rxvt_unicode
+      wego
       zathura
       
       ## Networking
