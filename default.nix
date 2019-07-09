@@ -18,6 +18,8 @@
     ./time.nix
     ./users.nix
     ./xdg.nix
-    (import (builtins.fetchTarball https://github.com/rycee/home-manager/archive/release-18.09.tar.gz) {}).nixos
+    (import (builtins.fetchGit {
+      url = "https://github.com/rycee/home-manager.git"
+      ref = "master";) {}).nixos
   ];
 }
