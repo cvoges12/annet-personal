@@ -14,13 +14,11 @@
 
       # Applications
       ## Audio
-      #cava
       caudec
       mpc_cli
       ncmpcpp
 
       ## Editors
-      vim
       (import ./nvim.nix)
 
       ## Graphics
