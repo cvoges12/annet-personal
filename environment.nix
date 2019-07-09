@@ -186,11 +186,11 @@
       yubikey-personalization
 
       ## Networking
-      #aircrack-ng
-      #offlineimap
-      #traceroute
-      #wget
-      #whois
+    # aircrack-ng
+    # offlineimap
+      traceroute
+      wget
+      whois
       
       ## Security
       #clamav
