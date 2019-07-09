@@ -193,12 +193,12 @@
       whois
       
       ## Security
-      #clamav
-      #john
-      #metasploit
-      #nmap
+    # clamav
+    # john
+    # metasploit
+      nmap
       pass
-      #thc-hydra
+    # thc-hydra
 
       ## System
       htop
@@ -211,10 +211,6 @@
 
       ## X11
       arandr
-
-      # Top-level
-      ## Python-packages
-      python36Packages.glances
     ];
   };
 }
