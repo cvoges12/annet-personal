@@ -21,8 +21,8 @@
     fonts = with pkgs; [
       fira-code
       fira-mono
-      #font-droid
       #noto-fonts
+      noto-fonts-emoji
       font-awesome_5
       font-awesome_4
       hasklig
