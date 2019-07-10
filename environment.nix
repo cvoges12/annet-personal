@@ -198,6 +198,7 @@
     # metasploit
       nmap
       pass
+      passff-host
     # thc-hydra
 
       ## System
