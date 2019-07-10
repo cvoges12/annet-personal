@@ -71,6 +71,7 @@
 
       ## Video
       mpv
+      obs-studio
 
       ## Window-Manager
       i3-gaps
