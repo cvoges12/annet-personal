@@ -23,6 +23,7 @@ in
       ncmpcpp
 
       ## Editors
+      android-studio
       (import ./nvim.nix)
 
       ## Graphics
