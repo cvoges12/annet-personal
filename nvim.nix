@@ -164,6 +164,7 @@ neovim.override {
                 neco-look
                 neco-syntax
                 syntastic
+                vimproc-vim
                 vim-haskellConcealPlus
                 vim-hdevtools
                 vim-hoogle
