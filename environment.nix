@@ -115,6 +115,7 @@ in
       haskellPackages.hdevtools
       haskellPackages.hledger
       haskellPackages.hlint
+      haskellPackages.hoogle
       haskellPackages.pandoc
       haskellPackages.pointfree
       haskellPackages.shelly
