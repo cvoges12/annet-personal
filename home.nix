@@ -104,9 +104,9 @@
             listenAddress = "127.0.0.1";
             port = 6600;
           };
-          #dataDir = "${musicdir}/mpd";
+          #dataDir = "${home}/.local/share";
           #dbFile = "${dataDir}/tag_cache";
-          musicDirectory = "${musicdir}";
+          musicDirectory = "${musicDir}";
           #playlistDirectory = "${dataDir}/playlists";
         };
         polybar = {
