@@ -258,7 +258,7 @@
               type = "internal/xbacklight";
               card = "intel_backlight";
               format = "<label>";
-              label = " %percentage%%";
+              label = "BKL: %percentage%%";
               bar-width = 10;
               bar-indicator = "|";
               bar-indicator-foreground = "#ff";
