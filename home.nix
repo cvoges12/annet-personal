@@ -90,12 +90,6 @@
             hsrepl = "stack repl";
             wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
           };
-          oh-my-zsh = {
-            enable = true;
-            #plugins
-            #theme
-          };
-          #plugins
         };
       };
       services = {
