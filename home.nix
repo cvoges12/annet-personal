@@ -1,13 +1,14 @@
 { config, pkgs, lib, ... }:
 
 {
-  home-manager.users = 
+  home-manager.users.cvoges12 =  
     let
       name = "Clayton Voges";
       gmail = "vogesclayton@gmail.com";
-      username = "cvoges12";
-      maildir = "/home/cvoges12/Mail";
-      musicdir = "/home/cvoges12/Music";
+      user = "cvoges12";
+      home = "/home/${user}"
+      mailDir = "${home}/Mail";
+      musicDir = "${home}/Music";
       mod = "Mod4";
       ws0 = "workspace 0";
       ws1 = "workspace 1";
@@ -21,20 +22,20 @@
       ws9 = "workspace 9";
       ws10 = "workspace 10";
     in
-    { cvoges12 = {
+    { 
       home = {
         #keyboard.variant = "colemak";
         sessionVariables = {
           EDITOR = "nvim";
         };
-        #username = "${username}";
+        #username = "${user}";
       };
       programs = {
         bash.enable = false;
         git = {
           enable = true;
           userEmail = "${gmail}";
-          userName = "${username}";
+          userName = "${user}";
         };
         #mbsync = {
         #  enable = true;
