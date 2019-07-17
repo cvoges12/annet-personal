@@ -117,7 +117,7 @@
             iwSupport = true;
             githubSupport = true;
           };
-          let
+          config = let
             bar = {
               monitor-strict = true;
 
@@ -155,7 +155,7 @@
               modules-right = "light date";
             };
           in
-          config = {
+          {
             "colors" = {
               background = "\${xrdb:color0:#222}";
               foreground = "\${xrdb:color7:#222}";
