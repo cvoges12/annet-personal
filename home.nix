@@ -43,7 +43,18 @@
         };
         urxvt = {
           enable = true;
+          extraConfig = {
+            #sharding = 15;
+          };
+          fonts = [
+            "xft:Fira Mono:size=10"
+          ];
+          keybindings = {
+            "Shift-Control-C" = "eval:selection_to_clipboard";
+            "Shift-Control-V" = "eval:paste_clipboard
+          };
           iso14755 = true;
+          package = "pkgs.rxvt_unicode";
           scroll = {
             bar.enable = false;
             keepPosition = true;
@@ -51,8 +62,8 @@
             scrollOnKeystroke = true;
             scrollOnOutput = false;
           };
-          shading = 100;
-          transparent = false;
+          shading = 75;
+          transparent = true;
         };
         zsh = {
           enable = true;
