@@ -117,6 +117,44 @@
             iwSupport = true;
             githubSupport = true;
           };
+          let
+            bar = {
+              monitor-strict = true;
+
+              width = "100%";
+              height = "3%";
+              radius = 0;
+
+              background = "\${colors.background}";
+              foreground = "\${colors.foreground}";
+              line-size = 2;
+
+              font-0 = "Fira Mono:pixelsize=10;0";
+              font-1 = "FontAwesome5Free:pixelsize=10;0";
+              font-2 = "FontAwesome5Free:style=Solid:pixelsize=10;0";
+              font-3 = "WenQuanYi Zen Hei:pixelsize=10;0";
+
+              fixed-center = true;
+              module-margin-left = 2;
+              module-margin-right = 2;
+              padding = 2;
+            };
+
+            top = {
+              bottom = false;
+
+              modules-left = "i3";
+              modules-right = "cpu memory fs temp battery";
+            };
+
+            bottom = {
+              bottom = true;
+
+              modules-left = "wired wifi";
+              modules-center = "mpd";
+              modules-right = "light date";
+            };
+          in
           config = {
             "colors" = {
               background = "\${xrdb:color0:#222}";
@@ -127,54 +165,20 @@
               alert = "\${xrdb:color3:#222}";
             };
 
-            "bar/top" = {
+            "bar/top0" = top // bar // {
               monitor = "LVDS-1";
-              monitor-strict = true;
-              width = "100%";
-              height = "3%";
-              radius = 0;
-              bottom = false;
-
-              background = "\${colors.background}";
-              foreground = "\${colors.foreground}";
-              line-size = 2;
-
-              fixed-center = true;
-              modules-left = "i3";
-              modules-right = "cpu memory fs temp battery";
-              module-margin-left = 2;
-              module-margin-right = 2;
-              padding = 2;
-
-              font-0 = "Fira Mono:pixelsize=10;0";
-              font-1 = "FontAwesome5Free:pixelsize=10;0";
-              font-2 = "FontAwesome5Free:style=Solid:pixelsize=10;0";
-              font-3 = "WenQuanYi Zen Hei:pixelsize=10;0";
             };
 
-            "bar/bottom" = {
+            "bar/bottom0" = bottom // bar // {
               monitor = "LVDS-1";
-              monitor-strict = true;
-              width = "100%";
-              height = "3%";
-              radius = 0;
-              bottom = true;
+            };
 
-              background = "\${colors.background}";
-              foreground = "\${colors.foreground}";
+            "bar/top1" = top // bar // {
+              monitor = "VGA-1";
+            };
 
-              fixed-center = true;
-              modules-left = "wired wifi";
-              modules-center = "mpd";
-              modules-right = "light date";
-              module-margin-left = 2;
-              module-margin-right = 2;
-              padding = 2;
-
-              font-0 = "Fira Mono:pixelsize=10;0";
-              font-1 = "FontAwesome5Free:pixelsize=10;0";
-              font-2 = "FontAwesome5Free:style=Solid:pixelsize=10;0";
-              font-3 = "WenQuanYi Zen Hei:pixelsize=10;0";
+            "bar/bottom1" = bottom // bar // {
+              monitor = "VGA-1";
             };
 
             "module/i3" = {
@@ -353,8 +357,10 @@
             };
           };
           script = ''
-            polybar top &
-            polybar bottom &
+            polybar top0 &
+            polybar bottom0 &
+            polybar top1 &
+            polybar bottom1 &
           '';
         };
       };
