@@ -53,7 +53,7 @@
           "Shift-Control-V" = "eval:paste_clipboard";
         };
         iso14755 = true;
-        package = "pkgs.rxvt_unicode";
+        package = pkgs.rxvt_unicode;
         scroll = {
           bar.enable = false;
           keepPosition = true;
@@ -113,7 +113,7 @@
         package = pkgs.polybar.override {
           i3GapsSupport = true;
           alsaSupport = true;
-          iwSupport = false;
+          iwSupport = false; # causes error when true
           githubSupport = true;
         };
         config = let
