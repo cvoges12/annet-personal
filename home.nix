@@ -6,7 +6,7 @@
       name = "Clayton Voges";
       gmail = "vogesclayton@gmail.com";
       user = "cvoges12";
-      home = "/home/${user}"
+      home = "/home/${user}";
       mailDir = "${home}/Mail";
       musicDir = "${home}/Music";
       mod = "Mod4";
