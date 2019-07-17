@@ -37,29 +37,9 @@
           userEmail = "${gmail}";
           userName = "${user}";
         };
-        #mbsync = {
-        #  enable = true;
-        #};
         firefox = {
           enable = true;
           enableAdobeFlash = false;
-        };
-        tmux = {
-          #clock24 = true;
-          enable = true;
-          #extraConfig = ''
-          #  bind h select-pane -L
-          #  bind n select-pane -D
-          #  bind e select-pane -U
-          #  bind i select-pane -R
-
-          #  bind -r H resize-pane -L
-          #  bind -r N resize-pane -D
-          #  bind -r E resize-pane -U
-          #  bind -r I resize-pane -R
-          #'';
-          #keyMode = "vi";
-          #shortcut = "b";
         };
         urxvt = {
           enable = true;
