@@ -113,7 +113,7 @@
         package = pkgs.polybar.override {
           i3GapsSupport = true;
           alsaSupport = true;
-          iwSupport = true;
+          iwSupport = false;
           githubSupport = true;
         };
         config = let
