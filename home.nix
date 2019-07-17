@@ -51,7 +51,7 @@
           ];
           keybindings = {
             "Shift-Control-C" = "eval:selection_to_clipboard";
-            "Shift-Control-V" = "eval:paste_clipboard
+            "Shift-Control-V" = "eval:paste_clipboard";
           };
           iso14755 = true;
           package = "pkgs.rxvt_unicode";
