@@ -359,8 +359,7 @@
             modules-right = "light date";
           };
         in
-        {
-          "colors" = {
+        { "colors" = {
             background = "\${xrdb:color0:#222}";
             foreground = "\${xrdb:color7:#222}";
             foreground-alt = "\${xrdb:color7:#222}";
