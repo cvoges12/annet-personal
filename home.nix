@@ -260,8 +260,13 @@
           scrollOnKeystroke = true;
           scrollOnOutput = false;
         };
-        shading = 75;
+        shading = 100;
         transparent = true;
+      };
+      zathuara = {
+        enable = true;
+        extraConfig = "";
+        options = { };
       };
       zsh = {
         enable = true;
