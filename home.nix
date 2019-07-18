@@ -102,6 +102,18 @@
     };
     programs = {
       bash.enable = false;
+      bat = {
+        enable = true;
+        config = { pager = "less -FR"; theme = "TwoDark"; };
+      };
+      browserpass = {
+        enable = true;
+        browsers = [ "firefox" ];
+      };
+      feh = {
+        enable = true;
+        keybindings = { zoom_in = "plus"; zoom_out = "minus"; };
+      };
       git = {
         enable = true;
         userEmail = "${gmail}";
