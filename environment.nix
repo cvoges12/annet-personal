@@ -6,6 +6,7 @@ let
 in
 {
   environment = {
+    pathsToLink = [ "/share/zsh" ];
     sessionVariables = {
       EDITOR = "nvim";
     };
