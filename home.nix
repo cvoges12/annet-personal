@@ -1,9 +1,10 @@
 { config, pkgs, lib, ... }:
 
-{
-  home-manager.users.cvoges12 =  let
+{ home-manager.users.cvoges12 = let
     name = "Clayton Voges";
     gmail = "vogesclayton@gmail.com";
+    vmail = "cvoges@vojes.co";
+    phone = "+1 (314) 585-1594";
     user = "cvoges12";
     home = "/home/${user}";
     mailDir = "${home}/Mail";
