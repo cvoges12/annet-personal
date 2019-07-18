@@ -70,7 +70,7 @@
     xserver = {
       enable = true;
       autorun = true;
-      layout = "cn,de,is,us";
+      #layout = "cn,de,is,us";
       xkbVariant = "colemak";
       xkbOptions = "altwin:swap_alt_win,caps:bksp";
       startDbusSession = true;
