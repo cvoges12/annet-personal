@@ -89,7 +89,12 @@
    #  };
    #};
     home = {
-      #keyboard.variant = "colemak";
+    # keyboard = {
+    #   layout = "us";
+    #   variant = "colemak";
+    # };
+      packages = with pkgs; [
+      ];
       sessionVariables = {
         EDITOR = "nvim";
       };
