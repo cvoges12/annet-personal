@@ -248,6 +248,8 @@
         keybindings = {
           "Shift-Control-C" = "eval:selection_to_clipboard";
           "Shift-Control-V" = "eval:paste_clipboard";
+          "Control-Up" = "perl:font-size:increase";
+          "Control-Down" = "perl:font-size:decrease";
         };
         iso14755 = true;
         package = pkgs.rxvt_unicode;
