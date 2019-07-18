@@ -22,72 +22,72 @@
     ws9 = "workspace 9";
     ws10 = "workspace 10";
   in
-  {#accounts = {
-   #  email = {
-   #    accounts = {
-   #      "${gmail}" = {
-   #        address = "${gmail}";
-   #        flavor = "gmail.com";
-   #        folders = {
-   #          drafts = "Drafts";
-   #          inbox = "Inbox";
-   #          sent = "Sent";
-   #          trash = "Trash";
-   #        };
-   #        gpg = {
-   #          encryptByDefault = false;
-   #          key = "";
-   #          signByDefault = false;
-   #        };
-   #        imap = {
-   #          host = "gmail.com";
-   #          port = "993";
-   #          tls = {
-   #            enable = true;
-   #            certificatesFile = "config.accounts.email.certificatesFile";
-   #            useStartTls = false;
-   #          };
-   #        };
-   #        notmuch.enable = true;
-   #        offlineimap = {
-   #          enable = true;
-   #        };
-   #        passwordCommand = "pass Website/google.com";
-   #        primary = true;
-   #        realName = "${name}";
-   #        signature = {
-   #          showSignature = "append";
-   #          text = ''
-   #            ---
-   #            ${name}
-   #            ${gmail}
-   #            ${phone}
-   #          '';
-   #        };
-   #        smtp = {
-   #          host = "gmail.com";
-   #          port = "465";
-   #          tls = {
-   #            enable = true;
-   #            certificatesFile = "config.accounts.email.certificatesFile";
-   #            useStartTls = false;
-   #          };
-   #        };
-   #        userName = "${gmail}";
-   #      };
-   #    # "${vmail}" = {
-   #    #   address  = "${vmail}";
-   #    #   flavor = "plain";
-   #    #   primary = false;
-   #    #   realName = "${name}";
-   #    #   userName = "${vmail}";
-   #    #   passwordCommand = "pass Website/vojes.co";
-   #    # };
-   #    };
-   #    certificatesFile = "/etc/ssl/certs/ca-certificates.crt";
-   #    maildirBasePath = "${mailDir}";
-   #  };
-   #};
+  { accounts = {
+      email = {
+        accounts = {
+          "${gmail}" = {
+            address = "${gmail}";
+            flavor = "gmail.com";
+            folders = {
+              drafts = "Drafts";
+              inbox = "Inbox";
+              sent = "Sent";
+              trash = "Trash";
+            };
+            gpg = {
+              encryptByDefault = false;
+              key = "";
+              signByDefault = false;
+            };
+            imap = {
+              host = "gmail.com";
+              port = "993";
+              tls = {
+                enable = true;
+                certificatesFile = "config.accounts.email.certificatesFile";
+                useStartTls = false;
+              };
+            };
+            notmuch.enable = true;
+            offlineimap = {
+              enable = true;
+            };
+            passwordCommand = "pass Website/google.com";
+            primary = true;
+            realName = "${name}";
+            signature = {
+              showSignature = "append";
+              text = ''
+                ---
+                ${name}
+                ${gmail}
+                ${phone}
+              '';
+            };
+            smtp = {
+              host = "gmail.com";
+              port = "465";
+              tls = {
+                enable = true;
+                certificatesFile = "config.accounts.email.certificatesFile";
+                useStartTls = false;
+              };
+            };
+            userName = "${gmail}";
+          };
+        # "${vmail}" = {
+        #   address  = "${vmail}";
+        #   flavor = "plain";
+        #   primary = false;
+        #   realName = "${name}";
+        #   userName = "${vmail}";
+        #   passwordCommand = "pass Website/vojes.co";
+        # };
+        };
+        certificatesFile = "/etc/ssl/certs/ca-certificates.crt";
+        maildirBasePath = "${mailDir}";
+      };
+    };
     home = {
     # keyboard = {
     #   layout = "us";
