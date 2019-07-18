@@ -122,6 +122,120 @@
       firefox = {
         enable = true;
         enableAdobeFlash = false;
+        extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+          https-everywhere
+          privacy-badger
+        ];
+        package = "pkgs.firefox";
+        profiles = {
+          default = {
+            isDefault = true;
+            settings = {
+              "browser.bookmarks.showMobileBookmarks" = true;
+              "browser.search.hiddenOneOffs" = 
+                "Google,Yahoo,Bing,Amazon.com,Twitter";
+              "browser.search.suggest.enabled" = true;
+              "browser.startup.homepage" = "https://startpage.com/";
+              "network.allow-experiments" = false;
+            };
+          };
+        };
+      };
+      htop = {
+        enable = true;
+        cpuCountFromZero = true;
+        delay = 15;
+        detailedCpuTime = true;
+        fields = [
+          "PID"
+          "USER"
+          "PRIORITY"
+          "NICE"
+          "M_SIZE"
+          "M_RESIDENT"
+          "M_SHARE"
+          "STATE"
+          "PERCENT_CPU"
+          "PERCENT_MEM"
+          "TIME"
+          "COMM" 
+        ];
+        headerMargin = true;
+        hideKernelThreads = true;
+        hideUserlandThreads = false;
+        highlightBaseName = true;
+        highlightMegabytes = true;
+        highlightThreads = true;
+        meters = {
+          left = [ "AllCPUs" "Memory" "Swap" ];
+          right = [ "Tasks" "LoadAverage" "Uptime" ];
+        };
+        showOtherUsers = false;
+        showProgramPath = true;
+        showThreadNames = false;
+        sortDescending = true;
+        sortKey = "PERCENT_CPU";
+        treeView = true;
+        updateProcessNames = true;
+      };
+      info = true;
+      mpv = {
+        enable = true;
+        bindings = {
+          WHEEL_UP = "seek 10";
+          WHEEL_DOWN = "seek -10";
+          "Alt+0" = "set window-scale 0.5";
+        };
+        config = {
+          profile = "gpu-hq";
+          force-window = "yes";
+          ytdl-format = "bestvideo+bestaudio";
+          cache-default = 4000000;
+        };
+      };
+      newsboat = {
+        enable = true;
+        autoReload = true;
+      };
+      notmuch = {
+        enable = true;
+        extraConfig = {
+        };
+        hooks = {
+          postInsert = "";
+          postNew = "";
+          preNew = "";
+        };
+        maildir.synchronizeFlags = true;
+        new = {
+          ignore = [];
+          tags = [ "new" "inbox" ];
+        };
+        search.excludeTags = [ "trash" "spam" ];
+      };
+      obs-studio = {
+        enable = true;
+        plugins = with pkgs; [
+          obs-linuxbrowser
+        ];
+      };
+      offlineimap = {
+        enable = true;
+        extraConfig = {
+          default = {
+          };
+          general = {
+          };
+        };
+        pythonFile = ''
+        '';
+      };
+      ssh = {
+        enable = true;
+      };
+      texlive = {
+        enable = true;
+        extraPackages = "tpkgs: { inherit (tpkgs) collection-fontsrecommended algorithms; }";
       };
       urxvt = {
         enable = true;
