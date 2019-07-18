@@ -54,19 +54,6 @@
     #  user = "taskd";
     #};
     #unifi.enable = true;
-    redshift = {
-      enable = true;
-      latitude = "38.6";
-      longitude = "90.5";
-      temperature = {
-        day = 3500;
-        night = 5500;
-      };
-      brightness = {
-        day = "1";
-        night = "1";
-      };
-    };
     xserver = {
       enable = true;
       autorun = true;

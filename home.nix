@@ -566,6 +566,21 @@
           polybar bottom1 &
         '';
       };
+      redshit = {
+        enable = true;
+        package = "pkgs.redshift";
+        brightness = {
+          day = "1";
+          night = "0.5";
+        };
+        latitude = "38.6";
+        longitude = "90.5";
+        provider = "manual";
+        temperature = {
+          day = 3500;
+          night = 5500;
+        };
+      };
     };
     xsession.windowManager.i3 = {
       enable = true;
