@@ -340,11 +340,12 @@
             fixed-center = true;
             module-margin-left = 2;
             module-margin-right = 2;
-            padding = 2;
           };
 
           top = {
             bottom = false;
+
+            padding = 2;
 
             modules-left = "i3";
             modules-right = "cpu memory fs temp battery";
