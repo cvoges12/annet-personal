@@ -263,7 +263,7 @@
         shading = 100;
         transparent = true;
       };
-      zathuara = {
+      zathura = {
         enable = true;
         extraConfig = "";
         options = { };
