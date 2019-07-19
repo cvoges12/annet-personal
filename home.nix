@@ -178,7 +178,7 @@
         treeView = true;
         updateProcessNames = true;
       };
-      info = true;
+      info.enable = true;
       mpv = {
         enable = true;
         bindings = {
