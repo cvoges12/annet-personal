@@ -41,7 +41,7 @@
             };
             imap = {
               host = "gmail.com";
-              port = "993";
+              #port = "993";
               tls = {
                 enable = true;
                 certificatesFile = "config.accounts.email.certificatesFile";
@@ -66,7 +66,7 @@
             };
             smtp = {
               host = "gmail.com";
-              port = "465";
+              #port = "465";
               tls = {
                 enable = true;
                 certificatesFile = "config.accounts.email.certificatesFile";
