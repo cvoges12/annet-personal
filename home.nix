@@ -126,7 +126,6 @@
           https-everywhere
           privacy-badger
         ];
-        package = "pkgs.firefox";
         profiles = {
           default = {
             isDefault = true;
