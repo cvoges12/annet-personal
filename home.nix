@@ -170,7 +170,7 @@
           left = [ "AllCPUs" "Memory" "Swap" ];
           right = [ "Tasks" "LoadAverage" "Uptime" ];
         };
-        showOtherUsers = false;
+        shadowOtherUsers = false;
         showProgramPath = true;
         showThreadNames = false;
         sortDescending = true;
