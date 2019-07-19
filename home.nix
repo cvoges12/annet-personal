@@ -299,6 +299,7 @@
         enableSshSupport = true;
         defaultCacheTtl = 1800;
       };
+      imapnotify.enable = true;
       mpd = rec {
         enable = true;
         network = {
