@@ -566,7 +566,7 @@
           polybar bottom1 &
         '';
       };
-      redshit = {
+      redshift = {
         enable = true;
         package = "pkgs.redshift";
         brightness = {
