@@ -93,8 +93,8 @@
     #   layout = "us";
     #   variant = "colemak";
     # };
-      packages = with pkgs; [
-      ];
+    # packages = with pkgs; [
+    # ];
       sessionVariables = {
         EDITOR = "nvim";
       };
