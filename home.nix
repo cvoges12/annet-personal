@@ -39,15 +39,15 @@
               key = "";
               signByDefault = false;
             };
-            imap = {
-              #host = "gmail.com";
-              #port = "993";
-              tls = {
-                enable = true;
-                certificatesFile = "config.accounts.email.certificatesFile";
-                useStartTls = false;
-              };
-            };
+          # imap = {
+          #   host = "gmail.com";
+          #   port = "993";
+          #   tls = {
+          #     enable = true;
+          #     certificatesFile = "config.accounts.email.certificatesFile";
+          #     useStartTls = false;
+          #   };
+          # };
             notmuch.enable = true;
             offlineimap = {
               enable = true;
@@ -64,15 +64,15 @@
                 ${phone}
               '';
             };
-            smtp = {
-              #host = "gmail.com";
-              #port = "465";
-              tls = {
-                enable = true;
-                certificatesFile = "config.accounts.email.certificatesFile";
-                useStartTls = false;
-              };
-            };
+          # smtp = {
+          #   host = "gmail.com";
+          #   port = "465";
+          #   tls = {
+          #     enable = true;
+          #     certificatesFile = "config.accounts.email.certificatesFile";
+          #     useStartTls = false;
+          #   };
+          # };
             userName = "${gmail}";
           };
         # "${vmail}" = {
