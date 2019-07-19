@@ -40,7 +40,7 @@
               signByDefault = false;
             };
             imap = {
-              host = "gmail.com";
+              #host = "gmail.com";
               #port = "993";
               tls = {
                 enable = true;
@@ -65,7 +65,7 @@
               '';
             };
             smtp = {
-              host = "gmail.com";
+              #host = "gmail.com";
               #port = "465";
               tls = {
                 enable = true;
