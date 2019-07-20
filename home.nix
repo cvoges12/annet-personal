@@ -558,6 +558,27 @@
             port = 6600;
             password = "";
             interval = 5;
+
+          # format-online = "<label-time> <label-song>";
+          # format-playing = "<icon-play>";
+          # format-paused = "<icon-pause>";
+          # format-stopped = "<icon-stop>";
+            label-song = "%artist% - %title%";
+            label-offline = "offline";
+            label-time = "%elapsed%/%total%";
+
+            icon-play = "";
+            icon-pause = "";
+            icon-stop = "";
+            icon-prev = "";
+            icon-next = "";
+            icon-seekb = "";
+            icon-seekf = "";
+            icon-random = "";
+            icon-repeat = "";
+            icon-repeatone = "";
+            icon-single = "";
+            icon-consume = "";
           };
         };
         script = ''
