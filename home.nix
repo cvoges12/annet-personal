@@ -468,19 +468,9 @@
             card = "intel_backlight";
             interval = 5;
             output = "LVDS-1";
-            enable-scroll = false;
-            format = "<label> <bar>";
-            label = "";
-            bar-width = 10;
-            bar-indicator = "|";
-            bar-indicator-foreground = "#ff";
-            bar-indicator-font = 2;
-            bar-fill = "-";
-            bar-fill-font = 2;
-            bar-fill-foreground = "#9f78e1";
-            bar-empty = "_";
-            bar-empty-font = 2;
-            bar-empty-foreground = "555";
+            enable-scroll = true;
+            format = "<label>";
+            label = " %percentage%%";
           };
 
           #"module/volume" = {
