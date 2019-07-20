@@ -482,7 +482,7 @@
             interval = 5;
             format-volume = "<ramp-volume> <label-volume>";
             format-muted = "<label-muted>";
-            label-volume = "volume %percentage%%";
+            label-volume = "%percentage%%";
             label-volume-foreground = "#ff";
             label-muted = "";
             label-muted-foreground = "#66";
@@ -561,9 +561,9 @@
 
             format-online = "<label-time> <label-song>";
             format-offline = "<label-offline>";
-          # format-playing = "<icon-play>";
-          # format-paused = "<icon-pause>";
-          # format-stopped = "<icon-stop>";
+            format-playing = "<icon-play> <label-time> <label-song>";
+            format-paused = "<icon-pause> <label-time> <label-song>";
+            format-stopped = "<icon-stop> <label-time> <label-song>";
             label-song = "%artist% - %title%";
             label-offline = "offline";
             label-time = "%elapsed%/%total%";
