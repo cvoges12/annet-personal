@@ -360,7 +360,7 @@
 
             modules-left = "wired wifi";
             modules-center = "mpd";
-            modules-right = "light volume date";
+            modules-right = "volume light date";
           };
         in
         { "colors" = {
@@ -481,10 +481,10 @@
             use-ui-max = "true";
             interval = 5;
             format-volume = "<ramp-volume> <label-volume>";
-            format-muted = "<label-muted>";
+            format-muted = "<label-muted> <label-volume>";
             label-volume = "volume %percentage%%";
             label-volume-foreground = "#ff";
-            label-muted = " muted";
+            label-muted = "";
             label-muted-foreground = "#66";
             ramp-volume-0 = "";
             ramp-volume-1 = "";
