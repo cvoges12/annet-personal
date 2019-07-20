@@ -360,7 +360,7 @@
 
             modules-left = "wired wifi";
             modules-center = "mpd";
-            modules-right = "light date";
+            modules-right = "light volume date";
           };
         in
         { "colors" = {
@@ -475,27 +475,27 @@
             label = " %percentage%%";
           };
 
-          #"module/volume" = {
-          #  type = "internal/pulseaudio";
-          #  sink = "alsa_output.pci-0000_00_1b.0.analog-stereo";
-          #  use-ui-max = "true";
-          #  interval = 5;
-          #  format-volume = "<ramp-volume> <label-volume>";
-          #  format-muted = "<label-muted>";
-          #  label-volume = "volume %percentage%%";
-          #  label-volume-foreground = "#ff";
-          #  label-muted = " muted";
-          #  label-muted-foreground = "#66";
-          #  ramp-volume-0 = "";
-          #  ramp-volume-1 = "";
-          #  ramp-volume-2 = "";
-          #  master-soundcard = "default";
-          #  speaker-soundcard = "default";
-          #  headphone-soundcard = "default";
-          #  master-mixer = "Master";
-          #  speaker-mixer = "Speaker";
-          #  headphone-mixer = "Headphone";
-          #};
+          "module/volume" = {
+            type = "internal/pulseaudio";
+            sink = "alsa_output.pci-0000_00_1b.0.analog-stereo";
+            use-ui-max = "true";
+            interval = 5;
+            format-volume = "<ramp-volume> <label-volume>";
+            format-muted = "<label-muted>";
+            label-volume = "volume %percentage%%";
+            label-volume-foreground = "#ff";
+            label-muted = " muted";
+            label-muted-foreground = "#66";
+            ramp-volume-0 = "";
+            ramp-volume-1 = "";
+            ramp-volume-2 = "";
+            master-soundcard = "default";
+            speaker-soundcard = "default";
+            headphone-soundcard = "default";
+            master-mixer = "Master";
+            speaker-mixer = "Speaker";
+            headphone-mixer = "Headphone";
+          };
 
           #"module/alsa" = {
           #  type = "internal/alsa";
