@@ -326,10 +326,11 @@
             width = "100%";
             height = "3%";
             radius = 0;
+            line-size = 2;
+            padding = 2;
 
             background = "\${colors.background}";
             foreground = "\${colors.foreground}";
-            line-size = 2;
 
             font-0 = "Fira Mono:pixelsize=10;0";
             font-1 = "FontAwesome5Free:pixelsize=10;0";
@@ -343,8 +344,6 @@
 
           top = {
             bottom = false;
-
-            padding = 2;
 
             modules-left = "i3";
             modules-right = "cpu memory fs temp battery";
