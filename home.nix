@@ -241,10 +241,10 @@
           #sharding = 15;
         };
         fonts = [
-          "xft:Fira Mono:size=10"
-          "xft:FontAwesome5Free:pixelsize=10"
-          "xft:FontAwesome5Free:style=Solid:pixelsize=10"
-          "xft:WenQuanYi Zen Hei:pixelsize=10"
+          "xft:Fira Mono:size=12"
+          "xft:FontAwesome5Free:size=12"
+          "xft:FontAwesome5Free:style=Solid:size=12"
+          "xft:WenQuanYi Zen Hei:pixelsize=12"
         ];
         keybindings = {
           "Shift-Control-C" = "eval:selection_to_clipboard";
@@ -261,7 +261,7 @@
           scrollOnKeystroke = true;
           scrollOnOutput = false;
         };
-        shading = 20;
+        shading = 15;
         transparent = true;
       };
       zathura = {
