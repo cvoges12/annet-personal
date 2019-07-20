@@ -245,6 +245,8 @@
           "xft:FontAwesome5Free:size=12"
           "xft:FontAwesome5Free:style=Solid:size=12"
           "xft:WenQuanYi Zen Hei:pixelsize=12"
+          "xft:Noto Color Emoji:style=Regular:size=12"
+          "xft:Hasklig:style=Regular:size=12"
         ];
         keybindings = {
           "Shift-Control-C" = "eval:selection_to_clipboard";
