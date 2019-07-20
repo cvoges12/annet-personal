@@ -238,7 +238,6 @@
       urxvt = {
         enable = true;
         extraConfig = {
-          #sharding = 15;
         };
         fonts = [
           "xft:Fira Mono:size=12"
@@ -448,6 +447,10 @@
           "module/kb" = {
             type = "internal/xkeyboard";
             blacklist-0 = "num lock";
+            blacklist-1 = "scroll lock";
+            format = "<label-layout> <label-indicator>";
+            label-layout = "%name%";
+            label-indicator = "%name%";
           };
 
           "module/fs" = {
@@ -461,7 +464,7 @@
           };
 
           "module/light" = {
-            type = "internal/xbacklight";
+            type = "internal/backlight";
             card = "intel_backlight";
             format = "<label>";
             label = "BKL: %percentage%%";
