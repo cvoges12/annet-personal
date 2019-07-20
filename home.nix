@@ -242,6 +242,9 @@
         };
         fonts = [
           "xft:Fira Mono:size=10"
+          "xft:FontAwesome5Free:pixelsize=10";
+          "xft:FontAwesome5Free:style=Solid:pixelsize=10";
+          "xft:WenQuanYi Zen Hei:pixelsize=10";
         ];
         keybindings = {
           "Shift-Control-C" = "eval:selection_to_clipboard";
