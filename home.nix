@@ -258,7 +258,7 @@
           scrollOnKeystroke = true;
           scrollOnOutput = false;
         };
-        shading = 100;
+        shading = 10;
         transparent = true;
       };
       zathura = {
