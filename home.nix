@@ -556,7 +556,7 @@
             type = "internal/mpd";
             host = "127.0.0.1";
             port = 6600;
-            password = "password";
+            password = "";
             interval = 5;
           };
         };

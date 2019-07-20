@@ -168,6 +168,7 @@ neovim.override {
                 vim-haskellConcealPlus
                 vim-hdevtools
                 vim-hoogle
+                vim-addon-nix
                 vim-pandoc
                 youcompleteme
               ];
