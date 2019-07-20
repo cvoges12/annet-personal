@@ -322,6 +322,8 @@
           alsaSupport = true;
           iwSupport = false; # causes error when true
           githubSupport = true;
+          mpdSupport = true;
+          pulseSupport = true;
         };
         config = let
           bar = {
