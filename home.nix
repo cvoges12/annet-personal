@@ -466,8 +466,11 @@
           "module/light" = {
             type = "internal/backlight";
             card = "intel_backlight";
-            format = "<label>";
-            label = "BKL: %percentage%%";
+            interval = 5;
+            output = "LVDS-1";
+            enable-scroll = false;
+            format = "<label> <bar>";
+            label = "";
             bar-width = 10;
             bar-indicator = "|";
             bar-indicator-foreground = "#ff";
