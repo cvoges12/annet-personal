@@ -119,28 +119,27 @@
         userEmail = "${gmail}";
         userName = "${user}";
       };
-      firefox = {
-        enable = true;
-        enableAdobeFlash = false;
-        extensions = with pkgs.nur.repos.rycee.firefox-addons; [
-          https-everywhere
-          privacy-badger
-        ];
-        package = pkgs.firefox;
-        profiles = {
-          default = {
-            isDefault = true;
-            settings = {
-              "browser.bookmarks.showMobileBookmarks" = true;
-              "browser.search.hiddenOneOffs" = 
-                "Google,Yahoo,Bing,Amazon.com,Twitter";
-              "browser.search.suggest.enabled" = true;
-              "browser.startup.homepage" = "https://startpage.com/";
-              "network.allow-experiments" = false;
-            };
-          };
-        };
-      };
+    # firefox = {
+    #   enable = true;
+    #   enableAdobeFlash = false;
+    #   extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+    #     https-everywhere
+    #     privacy-badger
+    #   ];
+    #   profiles = {
+    #     default = {
+    #       isDefault = true;
+    #       settings = {
+    #         "browser.bookmarks.showMobileBookmarks" = true;
+    #         "browser.search.hiddenOneOffs" = 
+    #           "Google,Yahoo,Bing,Amazon.com,Twitter";
+    #         "browser.search.suggest.enabled" = true;
+    #         "browser.startup.homepage" = "https://startpage.com/";
+    #         "network.allow-experiments" = false;
+    #       };
+    #     };
+    #   };
+    # };
       htop = {
         enable = true;
         cpuCountFromZero = true;
