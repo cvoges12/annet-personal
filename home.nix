@@ -481,7 +481,7 @@
             use-ui-max = "true";
             interval = 5;
             format-volume = "<ramp-volume> <label-volume>";
-            format-muted = "<label-muted> <label-volume>";
+            format-muted = "<label-muted>";
             label-volume = "volume %percentage%%";
             label-volume-foreground = "#ff";
             label-muted = "";
@@ -560,7 +560,7 @@
             interval = 5;
 
             format-online = "<label-time> <label-song>";
-            format-offline = "<lable-offline>";
+            format-offline = "<label-offline>";
           # format-playing = "<icon-play>";
           # format-paused = "<icon-pause>";
           # format-stopped = "<icon-stop>";
