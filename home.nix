@@ -559,14 +559,15 @@
             password = "";
             interval = 5;
 
-            format-online = "<label-time> <label-song>";
+            format-online = "<icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <bar-progress> <label-time>  <label-song>";
+              #"<label-time> <label-song>";
             format-offline = "<label-offline>";
             format-playing = "<icon-play> <label-time> <label-song>";
             format-paused = "<icon-pause> <label-time> <label-song>";
             format-stopped = "<icon-stop> <label-time> <label-song>";
-            label-song = "%artist% - %title%";
+            label-song = "%title%";
             label-offline = "offline";
-            label-time = "%elapsed%/%total%";
+            label-time = "[%elapsed%/%total%]";
 
             icon-play = "";
             icon-pause = "";
