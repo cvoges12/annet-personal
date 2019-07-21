@@ -559,8 +559,7 @@
             password = "";
             interval = 5;
 
-            format-online = "<icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>  <bar-progress> <label-time>  <label-song>";
-              #"<label-time> <label-song>";
+            format-online = "<label-time> <label-song>";
             format-offline = "<label-offline>";
             format-playing = "<icon-play> <label-time> <label-song>";
             format-paused = "<icon-pause> <label-time> <label-song>";
