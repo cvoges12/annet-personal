@@ -246,6 +246,7 @@
           "xft:WenQuanYi Zen Hei:pixelsize=12"
           "xft:Noto Color Emoji:style=Regular:size=12"
           "xft:Hasklig:style=Regular:size=12"
+          "xft:DejaVu Sans Mono:size=12"
         ];
         keybindings = {
           "Shift-Control-C" = "eval:selection_to_clipboard";
