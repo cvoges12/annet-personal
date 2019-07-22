@@ -451,6 +451,7 @@
             blacklist-0 = "num lock";
             blacklist-1 = "scroll lock";
             format = "<label-layout> <label-indicator>";
+            format-spacing = 0;
             label-layout = "%name%";
             label-indicator = "%name%";
           };
@@ -484,7 +485,7 @@
             format-muted = "<label-muted>";
             label-volume = "%percentage%%";
             label-volume-foreground = "#ff";
-            label-muted = "";
+            label-muted = " %percentage%%";
             label-muted-foreground = "#66";
             ramp-volume-0 = "";
             ramp-volume-1 = "";
@@ -497,57 +498,44 @@
             headphone-mixer = "Headphone";
           };
 
-          #"module/alsa" = {
-          #  type = "internal/alsa";
-          #  master-soundcard = "default";
-          #  speaker-soundcard = "default";
-          #  headphone-soundcard = "default";
-          #  master-mixer = "Master";
-          #  speaker-mixer = "Speaker";
-          #  headphone-mixer = "Headphone";
-          #  headphone-id = 9;
-          #  mapped = true;
-          #  interval = 5;
-          #  format-volume = "<ramp-volume> <label-volume>";
-          #  label-volume = "volume %percentage%%";
-          #  label-volume-foreground = "#ff";
-          #  label-muted = " muted";
-          #  label-muted-foreground = "#66";
-          #  ramp-volume-0 = "";
-          #  ramp-volume-1 = "";
-          #  ramp-volume-2 = "";
-          #};
-
           "module/memory" = {
             type = "internal/memory";
-            interval = 5;
+            interval = 10;
             format = "<label>";
             label = " %percentage_used%%";
           };
 
           "module/cpu" = {
             type = "internal/cpu";
-            interval = 5;
+            interval = 10;
             format = "<label>";
             label = " %percentage%%";
           };
 
           "module/battery" = {
             type = "internal/battery";
-            label = "Bat %percentage%%";
             full-at = 99;
             battery = "BAT0";
             adapter = "AC";
-            poll-interval = 5;
+            poll-interval = 10;
+
+            format-full = "<label-full>";
             format-charging = "<label-charging>";
-            format-discharging = "<label-discharging>";
+            format-discharging = "<ramp-capacity> <label-discharging>";
+            label-full = " %percentage%%";
             label-charging = " %percentage%%";
-            label-discharging = " %percentage%%";
+            label-discharging = "%percentage%%";
+
+            ramp-capacity-0 = "";
+            ramp-capacity-1 = "";
+            ramp-capacity-2 = "";
+            ramp-capacity-3 = "";
+            ramp-capacity-4 = "";
           };
 
           "module/temp" = {
             type = "internal/temperature";
-            interval = 5;
+            interval = 10;
             thermal-zone = 0;
             hwmon-path = "/sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input";
           };
@@ -701,16 +689,16 @@
         modes = {
           resize = {
             # Colemak
-            "h" = "resize grow width 10 px or 10 ppt";
-            "n" = "resize shrink height 10 px or 10 ppt";
-            "e" = "resize grow height 10 px or 10 ppt";
-            "i" = "resize shrink width 10 px or 10 ppt";
+            "h" = "resize shrink width 5 px or 5 ppt";
+            "n" = "resize grow height 5 px or 5 ppt";
+            "e" = "resize shrink height 5 px or 5 ppt";
+            "i" = "resize grow width 5 px or 5 ppt";
 
             # Qwerty
-            #"h" = "resize grow width 10 px or 10 ppt";
-            #"j" = "resize shrink height 10 px or 10 ppt";
-            #"k" = "resize grow height 10 px or 10 ppt";
-            #"l" = "resize shrink width 10 px or 10 ppt";
+            #"h" = "resize shrink width 5 px or 5 ppt";
+            #"j" = "resize grow height 5 px or 5 ppt";
+            #"k" = "resize shrink height 5 px or 5 ppt";
+            #"l" = "resize grow width 5 px or 5 ppt";
 
             "Escape" = "mode default";
           };
