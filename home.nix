@@ -716,6 +716,9 @@
             workspace = "0";
             notification = false; }
         ];
+        window = {
+          border = 5;
+        };
       };
     };
   };
