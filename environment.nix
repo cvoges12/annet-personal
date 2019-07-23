@@ -34,6 +34,7 @@ in
       calcurse
       dmenu
       khard
+      kitty
     # mop
       mpvc
       rtv
@@ -44,6 +45,7 @@ in
       
       ## Networking
       ### Browsers
+      brave
       firefox
       surf
 
