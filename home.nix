@@ -1,6 +1,4 @@
-{ config, pkgs, lib
-, whichBg ? "Landscapes"
-, ... }:
+{ config, pkgs, lib, ... }:
 
 { home-manager.users.cvoges12 = let
     name = "Clayton Voges";
@@ -13,7 +11,7 @@
     musicDir = "${home}/Music";
     picDir = "${home}/Pictures";
     wp = "${picDir}/wallpapers";
-    bg = "${wp}/${whichBg}";
+    bg = "${wp}/Landscapes";
     mod = "Mod4";
     ws0 = "workspace 0";
     ws1 = "workspace 1";
