@@ -10,7 +10,8 @@
     mailDir = "${home}/Mail";
     musicDir = "${home}/Music";
     picDir = "${home}/Picture";
-    bg = "${picDir}/Landscape";
+    wallpapers = "${picDirs}/wallpapers"
+    bg = "${wallpapers}/Landscape";
     mod = "Mod4";
     ws0 = "workspace 0";
     ws1 = "workspace 1";
@@ -552,10 +553,10 @@
       redshift = {
         enable = true;
         package = pkgs.redshift;
-        brightness = {
-          day = "1";
-          night = "0.5";
-        };
+      # brightness = {
+      #   day = "1";
+      #   night = "1";
+      # };
         latitude = "38.6";
         longitude = "90.5";
         provider = "manual";
@@ -681,10 +682,6 @@
             notification = false; }
           { command = "systemctl --user restart polybar.service"; 
             always = true; 
-            notification = false; }
-          { command = "urxvt -hold -e calcurse";
-            always = true;
-            workspace = "0";
             notification = false; }
         ];
         window = {
