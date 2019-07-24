@@ -266,7 +266,7 @@
           gitPush = "git push github && git push gitlab";
           hsauto = "ghcid --command \"stack repl\" --test \":main\"";
           hsrepl = "stack repl";
-          wall = "wal -i ${bg}";
+          wa = "wal -i ${bg}";
           wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
         };
       };
@@ -588,7 +588,7 @@
           "${mod}+Shift+l" = "exec i3lock";
 
           "${mod}+d" = "exec --no-startup-id dmenu_run";
-          "${mod}+Return" = "exec kitty -hold -e wall";
+          "${mod}+Return" = "exec kitty";
 
           "${mod}+w" = "kill";
           "${mod}+f" = "fullscreen toggle";
