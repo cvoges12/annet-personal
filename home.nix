@@ -9,9 +9,9 @@
     home = "/home/${user}";
     mailDir = "${home}/Mail";
     musicDir = "${home}/Music";
-    picDir = "${home}/Picture";
-    wallpapers = "${picDir}/wallpapers";
-    bg = "${wallpapers}/Landscape";
+    picDir = "${home}/Pictures";
+    wp = "${picDir}/wallpapers";
+    bg = "${wp}/Landscapes";
     mod = "Mod4";
     ws0 = "workspace 0";
     ws1 = "workspace 1";
