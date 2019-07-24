@@ -39,7 +39,6 @@ in
       mpvc
       rtv
       rxvt_unicode
-      urxvt_font_size
       wego
       zathura
       

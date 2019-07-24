@@ -9,6 +9,8 @@
     home = "/home/${user}";
     mailDir = "${home}/Mail";
     musicDir = "${home}/Music";
+    picDir = "${home}/Picture";
+    bg = "{picDir}/Landscape";
     mod = "Mod4";
     ws0 = "workspace 0";
     ws1 = "workspace 1";
@@ -234,37 +236,6 @@
       };
       texlive = {
         enable = true;
-      };
-      urxvt = {
-        enable = true;
-        extraConfig = {
-        };
-        fonts = [
-          "xft:Fira Mono:size=12"
-          "xft:FontAwesome5Free:size=12"
-          "xft:FontAwesome5Free:style=Solid:size=12"
-          "xft:WenQuanYi Zen Hei:pixelsize=12"
-          "xft:Noto Color Emoji:style=Regular:size=12"
-          "xft:Hasklig:pizelsize=12"
-          "xft:DejaVu Sans Mono:pixelsize=12"
-        ];
-        keybindings = {
-          "Shift-Control-C" = "eval:selection_to_clipboard";
-          "Shift-Control-V" = "eval:paste_clipboard";
-          "Control-Up" = "perl:font-size:increase";
-          "Control-Down" = "perl:font-size:decrease";
-        };
-        iso14755 = true;
-        package = pkgs.rxvt_unicode;
-        scroll = {
-          bar.enable = false;
-          keepPosition = true;
-          lines = 10000;
-          scrollOnKeystroke = true;
-          scrollOnOutput = false;
-        };
-        shading = 15;
-        transparent = true;
       };
       zathura = {
         enable = true;
@@ -615,7 +586,7 @@
           "${mod}+Shift+l" = "exec i3lock";
 
           "${mod}+d" = "exec --no-startup-id dmenu_run";
-          "${mod}+Return" = "exec urxvt";
+          "${mod}+Return" = "exec kitty && wal -i ${bg}";
 
           "${mod}+w" = "kill";
           "${mod}+f" = "fullscreen toggle";
@@ -705,7 +676,7 @@
           };
         };
         startup = [
-          { command = "wal -i /home/cvoges12/Pictures/wallpapers/Landscapes";
+          { command = "wal -i ${bg}";
             always = true;
             notification = false; }
           { command = "systemctl --user restart polybar.service"; 
