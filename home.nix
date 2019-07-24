@@ -10,7 +10,7 @@
     mailDir = "${home}/Mail";
     musicDir = "${home}/Music";
     picDir = "${home}/Picture";
-    wallpapers = "${picDirs}/wallpapers";
+    wallpapers = "${picDir}/wallpapers";
     bg = "${wallpapers}/Landscape";
     mod = "Mod4";
     ws0 = "workspace 0";
