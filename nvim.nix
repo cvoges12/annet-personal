@@ -158,7 +158,6 @@ neovim.override {
                 ghcmod-vim
                 haskell-vim
                 idris-vim
-                intero-neovim
                 LanguageClient-neovim
                 neco-ghc
                 neco-look
