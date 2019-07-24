@@ -39,7 +39,6 @@ in
       mpvc
       rtv
       rxvt_unicode
-      wego
       zathura
       
       ## Networking
