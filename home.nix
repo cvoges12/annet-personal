@@ -587,7 +587,7 @@
           "${mod}+Shift+l" = "exec i3lock";
 
           "${mod}+d" = "exec --no-startup-id dmenu_run";
-          "${mod}+Return" = "exec kitty && wal -i ${bg}";
+          "${mod}+Return" = "exec kitty; exec wal -i ${bg}";
 
           "${mod}+w" = "kill";
           "${mod}+f" = "fullscreen toggle";
