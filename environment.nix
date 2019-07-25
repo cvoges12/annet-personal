@@ -54,10 +54,8 @@ in
     # snort
 
       ### Instant-Messengers
-      discord
       profanity
       signal-desktop
-      tdesktop
       telegram-cli
       
       ### IRC

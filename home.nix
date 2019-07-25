@@ -263,10 +263,14 @@
         #localVariables
         #sessionVariables
         shellAliases = {
+          discord = "surf discordapp.com";
           gitPush = "git push github && git push gitlab";
           hsauto = "ghcid --command \"stack repl\" --test \":main\"";
           hsrepl = "stack repl";
+          riot = "surf riot.im/app";
+          telegram = "surf web.telegram.org";
           wa = "wal -i ${bg}";
+          wall = x: "wal -i ${bg}/${x}";
           wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
         };
       };
