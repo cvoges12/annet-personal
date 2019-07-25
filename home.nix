@@ -270,7 +270,7 @@
           riot = "surf riot.im/app";
           telegram = "surf web.telegram.org";
           wa = "wal -i ${bg}";
-          wall = x: "wal -i ${bg}/${x}";
+          wall = "wal -i ${bg}/$1";
           wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
         };
       };
