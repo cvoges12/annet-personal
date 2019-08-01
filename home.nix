@@ -269,6 +269,7 @@
           hsrepl = "stack repl";
           riot = "surf riot.im/app";
           telegram = "surf web.telegram.org";
+          tgcli = "telegram-cli -fN";
           wa = "wal -i ${bg}";
           wall = "wal -i ${wp}/$1";
           wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
