@@ -210,6 +210,9 @@ in
       traceroute
       wget
       whois
+
+      ## Package Management
+      dpkg
       
       ## Security
     # clamav
