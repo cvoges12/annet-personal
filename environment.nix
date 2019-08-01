@@ -97,6 +97,9 @@ in
       i3status
 
       # Build-Support
+      ## Binutils-Wrapper
+      binutils
+
       ## CC-Wrapper
       clang
       gcc
@@ -163,6 +166,7 @@ in
       ## Tools
       ### Misc
       dialog
+      patchelf
       ycmd
 
       ## Web
@@ -211,7 +215,7 @@ in
       wget
       whois
 
-      ## Package Management
+      ## Package-Management
       dpkg
       
       ## Security
