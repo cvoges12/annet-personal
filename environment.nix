@@ -86,7 +86,7 @@ in
 
       ## Video
       mpv
-      natron
+    # natron  # broken
       obs-studio
       openshot-qt
 
