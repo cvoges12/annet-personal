@@ -19,6 +19,7 @@ in
 
       # Applications
       ## Audio
+      ardour
       caudec
       mpc_cli
       ncmpcpp
@@ -28,9 +29,17 @@ in
       (import ./nvim.nix)
 
       ## Graphics
+      darktable
+      digikam
       feh
+      gimp
+      inkscape
+      krita
+      luminanceHDR
+      openscad
 
       ## Misc
+      blender
       calcurse
       dmenu
       khard
@@ -77,7 +86,9 @@ in
 
       ## Video
       mpv
+      natron
       obs-studio
+      openshot-qt
 
       ## Window-Manager
       i3-gaps
@@ -182,7 +193,7 @@ in
       android-file-transfer
 
       ## Graphics
-      maim
+      openshot-qt
       pywal
       escrotum
 
