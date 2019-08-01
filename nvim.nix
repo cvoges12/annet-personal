@@ -165,8 +165,8 @@ neovim.override {
                 syntastic
                 vimproc-vim
                 vim-haskellConcealPlus
-                vim-hdevtools
-                vim-hoogle
+                #vim-hdevtools
+                #vim-hoogle
                 vim-addon-nix
                 vim-pandoc
                 youcompleteme
