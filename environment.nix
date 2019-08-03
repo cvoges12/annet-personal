@@ -217,6 +217,7 @@ in
 
       ## Package-Management
       dpkg
+      nix-index
       
       ## Security
     # clamav
