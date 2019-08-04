@@ -47,7 +47,6 @@ in
     # mop
       mpvc
       rtv
-      rxvt_unicode
       zathura
       
       ## Networking
