@@ -12,10 +12,6 @@
     };
     ssh.startAgent = false;
     mtr.enable = true;
-    tmux = {
-      enable = true;
-      secureSocket = true;
-    };
     zsh = {
       enable = true;
       enableCompletion = true;
