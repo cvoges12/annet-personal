@@ -233,9 +233,6 @@ in
       ps_mem
       tree
 
-      ## Text
-      ripgrep
-
       ## X11
       arandr
     ];
