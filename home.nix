@@ -261,9 +261,7 @@
         loginExtra = "";
         logoutExtra = "";
         #localVariables
-        sessionVariables = {
-          bg = "${bg}";
-        };
+        #sessionVariables = {};
         shellAliases = {
           cal = "calcurse";
           wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
