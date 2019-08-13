@@ -201,6 +201,7 @@ in
       escrotum
 
       ## Misc
+      fzf
       neofetch
       tldr
       vdirsyncer # for khal and khard

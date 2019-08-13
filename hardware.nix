@@ -1,7 +1,6 @@
 { config, lib, pkgs, ... }:
 
-{
-  hardware = {
+{ hardware = {
     bluetooth = {
       enable = false;
       #package = pkgs.blue;

@@ -1,7 +1,6 @@
 { config, pkgs, lib, ... }:
 
-{
-  xdg = {
+{ xdg = {
     autostart.enable = true;
     icons.enable = true;
     menus.enable = true;

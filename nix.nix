@@ -1,7 +1,6 @@
 { config, lib, pkgs, ... }:
 
-{
-  nix = {
+{ nix = {
     maxJobs = lib.mkDefault 4; # change to number of total cores; lscpu
     nixPath = [
       "nixpkgs=/nix/var/nix/profiles/per-user/root/channels/nixos"

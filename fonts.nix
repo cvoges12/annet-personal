@@ -1,7 +1,6 @@
 { config, lib, pkgs, ... }:
 
-{
-  fonts = {
+{ fonts = {
     enableFontDir = true;
     enableGhostscriptFonts = true;
     fontconfig = {

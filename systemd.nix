@@ -1,5 +1,4 @@
 { config, pkgs, lib, ... }:
 
-{
-  systemd.enableEmergencyMode = true;
+{ systemd.enableEmergencyMode = true;
 }

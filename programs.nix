@@ -1,7 +1,6 @@
 { config, lib, pkgs, ... }:
 
-{
-  programs = {
+{ programs = {
     adb.enable = true;
     bash.enableCompletion = false;
     browserpass.enable = true;

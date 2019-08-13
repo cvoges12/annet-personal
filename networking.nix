@@ -1,7 +1,6 @@
 { config, lib, pkgs, ... }:
 
-{
-  networking = {
+{ networking = {
     firewall = {
       allowPing = true;
       allowedTCPPorts = [ 22 53 80 443 6600 41197 ];

@@ -1,7 +1,6 @@
 { config, lib, pkgs, ... }:
 
-{
-  services = {
+{ services = {
     #actkbd.enable = true;
     #apache-kafka.enable = true;
     #apcupsd.enable = true;

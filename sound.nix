@@ -1,7 +1,6 @@
 { config, lib, pkgs, ... }:
 
-{
-  sound = {
+{ sound = {
     enable = true;
     mediaKeys = {
       enable = true;

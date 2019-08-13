@@ -1,5 +1,5 @@
 with import <nixpkgs> {};
-                                                                                 
+
 neovim.override {
   configure = {
     customRC = ''
