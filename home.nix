@@ -10,8 +10,7 @@
     mailDir = "${home}/Mail";
     musicDir = "${home}/Music";
     picDir = "${home}/Pictures";
-    wp = "${picDir}/wallpapers";
-    bg = "${wp}/Landscapes";
+    bg = "${picDir}/wallpapers";
     mod = "Mod4";
     ws0 = "workspace 0";
     ws1 = "workspace 1";
@@ -261,18 +260,34 @@
         loginExtra = "";
         logoutExtra = "";
         #localVariables
-        #sessionVariables
+        sessionVariables = {
+          bg = "${bg}";
+        };
         shellAliases = {
-          discord = "brave discordapp.com";
+          cal = "calcurse";
+          wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
+
+          gitAdd = "git add -p";
           gitPush = "git push github && git push gitlab";
           hsid = "ghcid --command \"stack repl\" --test \":main\"";
           hsrepl = "stack repl";
+
+          discord = "brave discordapp.com/channels/@me";
           riot = "brave riot.im/app";
           telegram = "brave web.telegram.org";
           tgcli = "telegram-cli -fN";
-          wa = "wal -i ${bg}";
-          wall = "wal -i ${wp}/$1";
-          wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
+
+          wa = "wal -i";
+          art = "wa ${bg}/Art";
+          city = "wa ${bg}/Cityscapes";
+          etc = "wa ${bg}/Etc";
+          future = "wa ${bg}/Future";
+          land = "wa ${bg}/Landscapes";
+          space = "wa ${bg}/Spacescapes";
+          tech = "wa ${bg}/Tech";
+          titans = "wa ${bg}/Titans";
+          unsorted = "wa ${bg}/Unsorted";
+          vibrant = "wa ${bg}/Vibrant";
         };
       };
     };
@@ -683,7 +698,7 @@
           };
         };
         startup = [
-          { command = "wal -i ${bg}";
+          { command = "etc";
             always = true;
             notification = false; }
           { command = "systemctl --user restart polybar.service"; 
