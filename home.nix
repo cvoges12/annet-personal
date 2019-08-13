@@ -7,6 +7,7 @@
     phone = "+1 (314) 585-1594";
     user = "cvoges12";
     home = "/home/${user}";
+    projects = "${home}/Projects";
     mailDir = "${home}/Mail";
     musicDir = "${home}/Music";
     picDir = "${home}/Pictures";
@@ -266,6 +267,9 @@
         shellAliases = {
           cal = "calcurse";
           wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
+
+          common = "cd ${projects}/Annet/annet-common";
+          personal = "cd ${projects}/Annet/annet-personal";
 
           gitAdd = "git add -p";
           gitPush = "git push github && git push gitlab";
