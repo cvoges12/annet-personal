@@ -1,7 +1,6 @@
 { ... }:
 
-{
-  imports = [
+{ imports = [
     ./docs.nix
     ./environment.nix
     ./fonts.nix

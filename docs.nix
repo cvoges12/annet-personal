@@ -1,7 +1,6 @@
 { config, pkgs, lib, ...}:
 
-{
-  documentation = {
+{ documentation = {
     enable = true;
     dev.enable = true;
     doc.enable = true;

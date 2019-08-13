@@ -4,8 +4,7 @@ let
   unstable = import 
     (fetchTarball https://nixos.org/channels/nixos-unstable/nixexprs.tar.xz) { };
 in
-{
-  environment = {
+{ environment = {
     pathsToLink = [ "/share/zsh" ];
     sessionVariables = {
       EDITOR = "nvim";
@@ -84,6 +83,7 @@ in
       libreoffice
 
       ## Video
+      minitube
       mpv
     # natron  # broken
       obs-studio
