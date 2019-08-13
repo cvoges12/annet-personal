@@ -263,12 +263,12 @@
         #localVariables
         #sessionVariables
         shellAliases = {
-          discord = "surf discordapp.com";
+          discord = "brave discordapp.com";
           gitPush = "git push github && git push gitlab";
-          hsauto = "ghcid --command \"stack repl\" --test \":main\"";
+          hsid = "ghcid --command \"stack repl\" --test \":main\"";
           hsrepl = "stack repl";
-          riot = "surf riot.im/app";
-          telegram = "surf web.telegram.org";
+          riot = "brave riot.im/app";
+          telegram = "brave web.telegram.org";
           tgcli = "telegram-cli -fN";
           wa = "wal -i ${bg}";
           wall = "wal -i ${wp}/$1";
