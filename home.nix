@@ -247,7 +247,7 @@
         enable = true;
         enableAutosuggestions = true;
         enableCompletion = true;
-        #defaultKeymap = ;
+      # defaultKeymap = "vicmd"; # still need to change keys
         history = {
           expireDuplicatesFirst = true;
           extended = true;
@@ -266,13 +266,20 @@
           cal = "calcurse";
           wttr = "curl 'https://wttr.in/?m&M&F&A&Q'";
 
+          "." = "pwd && ls";
           common = "cd ${projects}/Annet/annet-common";
           personal = "cd ${projects}/Annet/annet-personal";
 
-          gitAdd = "git add -p";
-          gitPush = "git push github && git push gitlab";
-          hsid = "ghcid --command \"stack repl\" --test \":main\"";
-          hsrepl = "stack repl";
+          home = "personal && nvim home.nix";
+          env = "personal && nvim environment.nix";
+
+          add = "git add -p";
+          commit = "git commit";
+          push = "git push github && git push gitlab";
+
+          hs = "hsid && hsrepl";
+          hsid = "kitty ghcid --command \"stack repl\" --test \":main\"";
+          hsrepl = "kitty stack repl";
 
           discord = "brave discordapp.com/channels/@me";
           riot = "brave riot.im/app";

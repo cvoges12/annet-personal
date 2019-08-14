@@ -83,7 +83,7 @@ in
       libreoffice
 
       ## Video
-      minitube
+      unstable.minitube
       mpv
     # natron  # broken
       obs-studio
