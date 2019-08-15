@@ -271,7 +271,7 @@
           personal = "cd ${projects}/Annet/annet-personal";
 
           home = "personal && nvim home.nix";
-          env = "personal && nvim environment.nix";
+          envir = "personal && nvim environment.nix";
 
           add = "git add -p";
           commit = "git commit";
