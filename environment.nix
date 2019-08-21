@@ -89,6 +89,10 @@ in
       obs-studio
       openshot-qt
 
+      ## Virtualization
+      virtmanager
+      virtualboxHardened
+
       ## Window-Manager
       i3-gaps
       i3blocks-gaps
