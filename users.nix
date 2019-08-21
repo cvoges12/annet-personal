@@ -9,7 +9,7 @@
     extraGroups = [
       "wheel" "disk" "audio" "video"
       "networkmanager" "systemd-journal"
-      "libvirtd"
+      "libvirtd" "vbox" "vboxusers"
     ];
     shell = pkgs.zsh;
     packages = with pkgs; [

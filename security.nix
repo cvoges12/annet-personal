@@ -1,4 +1,7 @@
 { config, pkgs, lib, ...}:
 
-{ security.rtkit.enable = true;
+{ security = {
+    rtkit.enable = true;
+    setuidPrograms = [ "VirtualBox" "VBoxManage" ];
+  };
 }
