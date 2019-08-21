@@ -269,6 +269,7 @@
           "." = "pwd && ls";
           common = "cd ${projects}/Annet/annet-common";
           personal = "cd ${projects}/Annet/annet-personal";
+          foep = "cd ${projects}/FOEP";
 
           home = "personal && nvim home.nix";
           envir = "personal && nvim environment.nix";
