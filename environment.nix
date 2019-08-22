@@ -221,6 +221,7 @@ in
 
       ## Package-Management
       dpkg
+      nixops
       nix-index
       
       ## Security
