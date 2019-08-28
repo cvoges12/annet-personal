@@ -581,21 +581,21 @@
           polybar bottom1 &
         '';
       };
-      redshift = {
-        enable = true;
-        package = pkgs.redshift;
-      # brightness = {
-      #   day = "1";
-      #   night = "1";
-      # };
-        latitude = "38.6";
-        longitude = "90.5";
-        provider = "manual";
-        temperature = {
-          day = 3500;
-          night = 5500;
-        };
-      };
+    # redshift = {
+    #   enable = true;
+    #   package = pkgs.redshift;
+    # # brightness = {
+    # #   day = "1";
+    # #   night = "1";
+    # # };
+    #   latitude = "38.6";
+    #   longitude = "90.5";
+    #   provider = "manual";
+    #   temperature = {
+    #     day = 3500;
+    #     night = 5500;
+    #   };
+    # };
     };
     xsession.windowManager.i3 = {
       enable = true;
