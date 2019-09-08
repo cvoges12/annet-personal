@@ -127,6 +127,9 @@ neovim.override {
       nnoremap jo zo|xnoremap jo zo|
       nnoremap jc zc|xnoremap jc zc|
       nnoremap ja za|xnoremap ja za|
+      nnoremap jO zO|xnoremap jO zO|
+      nnoremap jC zC|xnoremap jC zC|
+      nnoremap jA zA|xnoremap jA zA|
                                                                                  
       " Help
       nnoremap B K|vnoremap B K|
